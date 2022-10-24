@@ -1,0 +1,60 @@
+input:focus{
+    border-color: blue!important
+}
+input:valid, textarea:valid{
+        border-color: chartreuse;
+}
+input:invalid, textarea:invalid{
+    border-color: red;
+}
+body{
+    
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: blue url(../img/bg.png) no-repeat top center;
+    
+}
+#container{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(255, 255, 255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -12px;
+    margin-bottom: 17px;
+}
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    background-size: 30px;
+}
+input#email{
+    background-image: url(../img/perfeito-remove.png);
+
+}
+input#senha{
+    background-image: url(../img/senha-remove.png);
+}
+input#submit{
+    color: white ;
+    width: 90%;
+    background-color: #15348D;
+    border: 2px solid ;
+    padding: 5px 20px;
+    height: 45px;
+}
+#baixo{
+    color: red;
+}
